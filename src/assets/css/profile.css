@@ -1,0 +1,96 @@
+.profile-container {
+    width: 15vw;
+    margin-left: 82.5vw;
+    /*box-shadow: rgba(197, 189, 189, 0.35) 0px 5px 15px;*/
+    position: absolute;
+    background-color: #f8f8ff;
+}
+
+.cards-container {
+    height: 150px;
+    width: 15vw;
+    box-shadow: rgba(197, 189, 189, 0.35) 0px 1px 5px;
+    margin-left: 1.25vw;
+    border-radius: 20px;
+    background-color :#9921e8;
+    background-image :linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
+    color: #fff;
+}
+
+.cards-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.cards-header h5 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.cards-header i {
+    transform: rotate(90deg)
+}
+
+.cards-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.cards-footer p{
+    font-size: 10px;
+    margin-top: 45px;
+}
+
+.profileDetail-container {
+    height: 400px;
+    width: 15vw;
+    box-shadow: rgba(197, 189, 189, 0.35) 0px 1px 5px;
+    margin-left: 1.25vw;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ProfileDetail-customerProfile {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    margin-top: 12.5px;
+}
+
+.profileDetail-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+}
+
+.ProfileDetail-customerName {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.ProfileDetail-customerEmail {
+    margin-top: -5px;
+    opacity: 0.6;
+    font-size: 14px;
+}
+
+.ProfileDetail-icons i{
+    padding: 5px 10px;
+    font-size: 28px;
+}
+
+.profileDetail-header {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 14px;
+    opacity: 0.6;
+}

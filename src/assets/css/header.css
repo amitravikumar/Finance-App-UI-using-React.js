@@ -1,0 +1,53 @@
+.header-container {
+  margin-left: 20vw;
+  height: 100px;
+  width: 75vw;
+  border-radius: 30px;
+}
+
+.search-input {
+  width: 25vw;
+  height: 40px;
+  box-shadow: rgb(197 189 189 / 35%) 0px 1px 5px;
+  border: none;
+  border-radius: 25px;
+  position: relative;
+  right: 22vw;
+  margin-top: 25px;
+}
+
+::placeholder {
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.search-icon {
+  position: relative;
+  right: 25vw;
+  top: 8px;
+  opacity: 0.6
+}
+
+.sideIcons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 32px;
+}
+
+.search-side-icons {
+  font-size: 34px;
+  padding-right: 15px;
+}
+
+.intro-heading h1 {
+  text-align: left;
+  font-weight: 400;
+} 
+
+.intro-heading p {
+  margin-top: -10px;
+  padding: 0;
+  text-align: left;
+}

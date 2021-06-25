@@ -1,0 +1,120 @@
+.sidenav-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 15vw;
+}
+
+.sidenav-logo {
+  height: 60px;
+  width: 60px;
+}
+
+.bank-logo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 15px;
+  padding-bottom: 10px;
+}
+
+.bank-logo h3 {
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+.sidenav-items {
+  margin-right: 16px;
+  font-size: 16px;
+}
+
+.sidenav-navigation p {
+  text-align: left;
+  opacity: 0.6;
+}
+
+.sidenav-navigation {
+  margin-left: 40px;
+}
+
+.connectivity-container {
+  height: 125px;
+  width: 13.5vw;
+  background-color: #f2a601e3;
+  color: #FFF;
+  border-radius: 10px;
+  margin-left: 16px;
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.connectivity-container p {
+  margin: 0;
+  padding: 0;
+}
+
+.connectivity-close {
+  position: absolute;
+  left: 13vw;
+  font-size: 16px;
+}
+
+.connectivity-icon-container {
+  height: 40px;
+  width: 40px;
+  background: rgba(255,214,0,0.8855917366946778);
+  opacity: 0.6;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.connectivity-bolt {
+  font-size: 26px;
+  margin-top: 5px;
+}
+
+.connectivity-text {
+  margin-top: 15px;
+}
+
+.recipentData-icons {
+  color: lightgray;
+  font-size: 90px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.recipentData-container {
+  margin-top: 25px;
+  margin-left: 16px;
+  height: 300px;
+  width: 13.5vw;
+  background-color: #ffffff;
+  box-shadow: rgba(197, 189, 189, 0.35) 0px 5px 15px;
+  /* border: 0.5px solid lightgray; */
+  border-radius: 10px;
+}
+
+.recipentData-export {
+  width: 150px;
+  height: 40px;
+  appearance: none;
+  border: 0;
+  border-radius: 18px;
+  background: #dbe4f7;
+  color: rgb(98, 98, 233);
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.recipentData-text p{
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}

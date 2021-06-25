@@ -1,0 +1,57 @@
+.deposits-container {
+  height: 325px;
+  width: 62vw;
+  margin-left: 20vw;
+  margin-top: 100px;
+  box-shadow: rgb(197 189 189 / 35%) 0px 1px 5px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #fff;
+}
+
+.deposit-headers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 31vw;
+}
+
+.heading-main{
+  margin: 20px 30px;
+}
+
+.heading-text {
+  margin: 30px 25px;
+  opacity: 0.6;
+}
+
+.deopsit-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 62vw;
+  margin-left: 20vw;
+}
+
+.deposit-details-data {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+  position: relative;
+  bottom: 250px;
+  margin: 20px 30px;
+  text-align: left;
+}
+
+.deposit-credited p {
+  color: limegreen;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.deposit-debited p {
+  color: red;
+  font-weight: 700;
+}
